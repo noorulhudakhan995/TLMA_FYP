@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/home"
+            android:title="Home"
+            android:id="@+id/hom"/>
+        <item
+
+            android:icon="@drawable/map_view"
+            android:title="Mapview"
+            android:id="@+id/mapview"/>
+        <item
+            android:id="@+id/Taskssettings"
+            android:icon="@drawable/tasksetting"
+            android:title="Add tasks" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/helpicon"
+                android:title="Help" />
+            <item
+                android:id="@+id/appratings"
+                android:icon="@drawable/appstars"
+                android:title="Rate app" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_icon"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

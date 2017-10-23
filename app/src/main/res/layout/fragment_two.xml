@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/fragment_two"
+    android:background="@color/iron">
+
+    <TextView
+        android:id="@+id/txtstarttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#1c1c1c"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnstarttimepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffc107"
+        android:padding="2dp"
+        android:layout_marginTop="5dp"
+        android:text="Pick Start Time"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtendtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#1c1c1c"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnendtimepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffc107"
+        android:padding="2dp"
+        android:layout_marginTop="5dp"
+        android:text="Pick End  Time"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtstartdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#1c1c1c"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnstartdatepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffc107"
+        android:padding="2dp"
+        android:text="Pick Start Date"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txtenddate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#1c1c1c"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnenddatepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffc107"
+        android:padding="2dp"
+        android:text="Pick End Date"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
